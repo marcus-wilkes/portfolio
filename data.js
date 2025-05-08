@@ -1,0 +1,120 @@
+export const Data = {
+  projects: [
+    {
+      id: 1,
+      title: "Wren Inspires",
+      category: "Community & Networking",
+      myrole: "API Development & Information Compilation",
+      tech: `jQuery, Apache HTTP Server, Database Architecture, MariaDB, PHP, WordPress Plugin, Web Development, HTML5 etc`,
+      date: "2021",
+      url: "https://wreninspires.com/",
+      description: `Wren Inspires is a platform dedicated to empowering women in real estate. It fosters a thriving community where female professionals, investors, and entrepreneurs can connect, share insights, and grow their businesses. Through networking events, educational programs, and mentorship opportunities, WREN helps women excel in the real estate industry.`,
+      images: ["assets/img/portfolio/app-1.jpg"],
+    },
+    {
+      id: 2,
+      title: "Windmill Hill Farm",
+      category: "Agriculture & Natural Products",
+      myrole: "Frontend & Backend Development",
+      tech: "HTML, CSS, JavaScript, PHP, MySQL, Git, GitHub, CI/CD, Docker, etc.",
+      date: "2025", 
+      url: "https://windmillhillfarm.com/",
+      description:
+        "Windmill Hill Farm is dedicated to producing high-quality, handcrafted honey straight from its hives. Nestled in a picturesque countryside, the farm specializes in raw natural wildflower honey, creamed honey, and unique fruit-infused blends. With a commitment to sustainability and eco-friendly farming, Windmill Hill Farm ensures that every jar of honey is pure, flavorful, and packed with health benefits.",
+      images: ["assets/img/portfolio/windmill-hill-farm.jpg"],
+    },
+    {
+      id: 3,
+      title: "MD Art Galleries",
+      category: "Art Marketplace",
+      myrole: "Custom Plugin Development & Theme Customization",
+      date: "2021",
+      tech: "Wordpress, JavaScript, CSS, API, PHP, Laravel, SQL, Theme Development and Plugin Customization etc.",
+      url: "https://mdartgalleries.com/",
+      description:
+        "MD Art Galleries is a marketplace for local artists to sell archival prints of their art. All images on this site have been professionally digitized from the original art and proofed for color accuracy by the artist. We do the printing and fulfillment so our artists can do what they do best.. Create art!",
+      images: ["assets/img/portfolio/app-3.jpg"],
+    },
+    {
+      id: 4,
+      title: "Integration Tracker",
+      category: "Technology & Business Solutions",
+      myrole: "Backend Development & API Integration",
+      tech: "HTML, CSS, JavaScript, React, Node, MongoDB, Git, GitHub, CI/CD, Docker, etc.",
+      date: "2025",
+      url: "https://www.integrationtracker.com/",
+      description:
+        "Integration Tracker is a platform designed to help businesses manage and monitor their software integrations efficiently. It provides tools for tracking integration performance, identifying potential issues, and optimizing workflows. With a focus on seamless connectivity, Integration Tracker ensures that businesses can maintain smooth operations across various applications and services.",
+      images: ["assets/img/portfolio/integration-tracker.jpg"],
+    },
+    {
+      id: 5,
+      title: "Drive Well Driving School",
+      category: "Education Services",
+      myrole: "Landing Page Development & WooCommerce Setup",
+      tech: "HTML5, WordPress, Landing Page, WooCommerce, Elementor and WordPress Plugin etc",
+      date: "2018",
+      url: "https://www.drivewelldrivingschool.com/",
+      description: `A comprehensive driving school based in Loudoun County, Virginia, offering
+ both online driver's education courses and practical behind-the-wheel training for teens and adults.
+  Our certified instructors focus on fostering safe driving habits and providing personalized lessons to
+   ensure students gain confidence and competence behind the wheel.`,
+      images: ["assets/img/portfolio/app-5.jpg"],
+    },
+    {
+      id: 6,
+      title: "Trustile",
+      category: "Building Materials",
+      myrole: "Shopify Store Setup & Customization",
+      tech: "Shopify, UI/UX, E-commerce, Shopify Theme Development, Shopify App Development etc.",
+      date: "2020",
+      url: "https://www.trustile.com/",
+      description: `Specializing in high-quality, custom interior and exterior doors, Trustile offers a wide range
+ of stylish and durable door designs for residential and commercial spaces. Their products are crafted with 
+ precision and attention to detail, transforming the look and feel of any home or building.`,
+      images: ["assets/img/portfolio/app-6.jpg"],
+    },
+    {
+      id: 7,
+      title: "Dollar Flight Club",
+      category: "Travel Services",
+      myrole: "Full-Stack Development & Deployment",
+      tech: `Full-Stack Development, Docker,
+            Next.js,
+            TypeScript,
+            Node.js,
+            Amazon Web Services,
+            ExpressJS,
+            JavaScript,
+            React and
+            Redux etc.`,
+      date: "2023",
+      url: "https://dollarflightclub.com/",
+      description: `A subscription-based service that helps travelers save money on flights by sending personalized
+  alerts for discounted domestic and international flights. Members can set their home airports and dream destinations
+   to receive notifications about flight deals up to 90% off, helping them explore the world without breaking the bank.`,
+      images: ["assets/img/portfolio/app-7.jpg"],
+    },
+    {
+      id: 8,
+      title: "Logical Buildings",
+      category: "Energy Management",
+      myrole: "API Integration & Energy Management Solutions Development",
+      tech: ` Full-Stack Development,
+            API Integration,
+            Vue.js,
+            Laravel,
+            Docker,
+            TypeScript,
+            Amazon Web Services,
+            MySQL,
+            JavaScript and,
+            Nuxt etc.`,
+      date: "2023",
+      url: "https://logicalbuildings.com/",
+      description: `Specializing in smart building and energy management solutions, Logical Buildings offers innovative software tools that help building owners and residents reduce energy consumption, lower costs, and achieve sustainability goals.
+ Their GridRewards app rewards users for reducing energy usage during peak times, contributing to a greener environment.`,
+      images: ["assets/img/portfolio/app-8.jpg"],
+    },
+  ],
+};
