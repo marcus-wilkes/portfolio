@@ -1181,7 +1181,7 @@
       <!-- /Resume Section -->
 
       <!-- Portfolio Section -->
-      <section id="portfolio" class="portfolio section light-background h-100">
+      <section id="portfolio" style="overflow: visible;"  class="portfolio section light-background">
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
           <h2>Portfolio</h2>
@@ -1209,12 +1209,13 @@
         </div>
         <!-- End Section Title -->
 
-        <div class="container h-auto" style="min-height: 800px; height: 100%">
-          <div
+        <div class="container" style="height: 100%; min-height: 900px; "  >
+          <!-- <div
             class="isotope-layout"
             data-default-filter="*"
             data-layout="masonry"
-          >
+            
+          > -->
             <!-- End Portfolio Filters -->
 
             <div
@@ -1225,7 +1226,7 @@
               <!-- End Portfolio Item -->
             </div>
             <!-- End Portfolio Container -->
-          </div>
+          <!-- </div> -->
         </div>
       </section>
       <!-- /Portfolio Section -->
@@ -1726,13 +1727,7 @@
 
       // Get the portfolio container element
       const container = document.getElementById("portfolio-container");
-      //   <a
-      //   href="assets/img/portfolio/app-4.jpg"
-      //   title="Remar SOS"
-      //   data-gallery="portfolio-gallery-book"
-      //   class="glightbox preview-link"
-      //   ><i class="bi bi-zoom-in"></i
-      // ></a>
+   
     
       // Loop through the projects and generate portfolio items dynamically
       Data.projects.forEach((project) => {
@@ -1757,13 +1752,7 @@
             </a>
           </div>
         `;
-        // <a href="${project.images[0]}" title="${
-        //   project.title
-        // }" data-gallery="portfolio-gallery-${project.category
-        //   .toLowerCase()
-        //   .replace(" ", "-")}" class="glightbox preview-link">
-        //         <i class="bi bi-zoom-in"></i>
-        //       </a>
+     
         container.appendChild(portfolioItem);
       });
     </script>

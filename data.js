@@ -116,5 +116,53 @@ export const Data = {
  Their GridRewards app rewards users for reducing energy usage during peak times, contributing to a greener environment.`,
       images: ["assets/img/portfolio/app-8.jpg"],
     },
+    {
+      id: 9,
+      title: "Imply",
+      category: "Real-Time Analytics Platform",
+      myrole: "Developed Backend Infrastructure for Real-Time Query Processing & Data Analytics",
+      tech: "Django, Python, React, Redux, JavaScript, TypeScript, Tailwind CSS, Docker, AWS Lambda, etc.",
+      date: "2025",
+      url: "https://imply.io/",
+      description:
+        "Imply is a real-time analytics platform built for speed, scalability, and cost efficiency. Designed by the original creators of Apache Druid, it enables businesses to process high-dimensional data with sub-second query speeds. Imply provides interactive dashboards, anomaly detection, and federated queries, helping organizations make instant, data-driven decisions.",
+      images: ["assets/img/portfolio/9.jpg"],
+    },
+    {
+      id: 10,
+      title: "Mondoz Z & Z Pizzeria",
+      category: "Food & Dining",
+      myrole: "Implemented Online Ordering System & Payment Processing Integration",
+      tech: "php, laravel, mysql, javascript, etc.",
+      date: "2025",
+      url: "https://www.mondozandz.com/",
+      description:
+        "Mondoz Z & Z Pizzeria is a cozy eatery in Providence, RI, serving up delicious wood-fired pizzas, fresh salads, and flavorful appetizers. With a menu featuring classic favorites like Margherita and Pepperoni, as well as unique creations like Potato Pizza and Mediterranean Salad, Mondoz Z & Z offers something for every pizza lover. Whether dining in or ordering ahead, customers can enjoy high-quality ingredients and a welcoming atmosphere.",
+      images: ["assets/img/portfolio/10.jpg"],
+    },
+    {
+      id: 11,
+      title: "Saritasa",
+      category: "Custom Software Development",
+      myrole: "Engineered Scalable Backend Architecture & API Development for Enterprise Applications",
+      tech: "Python, Django, React, etc.",
+      date: "2025",
+      url: "https://www.saritasa.com/",
+      description:
+        "Saritasa is a leading custom software development company that specializes in building innovative digital solutions for businesses. With expertise in mobile apps, web applications, IoT systems, and AI-driven technologies, Saritasa helps companies streamline operations, enhance user experiences, and drive growth. Their team of experts delivers tailored solutions across various industries, ensuring cutting-edge technology integration.",
+      images: ["assets/img/portfolio/11.jpg"],
+    },
+    {
+      id: 12,
+      title: "ShipYourReptiles",
+      category: "Reptile Shipping & Logistics",
+      myrole: "Developed Secure Shipping Workflow & Temperature-Controlled Packaging System",
+      tech: "PHP, Laravel, FedEx API, UPS API, etc.",
+      date: "2025",
+      url: "https://www.shipyourreptiles.com/",
+      description:
+        "ShipYourReptiles is a specialized logistics platform that enables safe and affordable shipping of live reptiles and amphibians across the United States. Partnering with FedEx and UPS, it ensures secure transportation with temperature-controlled packaging and insurance options. The platform also supports USARK, advocating for reptile enthusiasts and breeders.",
+      images: ["assets/img/portfolio/12.jpg"],
+    },
   ],
 };

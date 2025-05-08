@@ -1,14 +1,5 @@
-/**
-* Template Name: iPortfolio
-* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-* Updated: Jun 29 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# Font & Color Variables
-# Help: https://bootstrapmade.com/color-system/
+
 --------------------------------------------------------------*/
 /* Fonts */
 :root {
@@ -508,7 +499,7 @@ section,
   color: var(--default-color);
   background-color: var(--background-color);
   padding: 60px 0;
-  overflow: clip;
+  /* overflow: clip; */
 }
 
 /*--------------------------------------------------------------
@@ -575,7 +566,9 @@ section,
 
 .hero .container {
   position: relative;
+  height: auto;
   z-index: 3;
+
 }
 
 .hero h2 {
@@ -820,6 +813,7 @@ section,
 }
 .portfolio p {
   margin-top: 1rem;
+  overflow: visible;
 }
 
 @media (max-width: 575px) {
